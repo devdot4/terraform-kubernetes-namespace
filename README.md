@@ -4,8 +4,9 @@
 ### Add the following line to your code.
 ```
 module "example" {
-  source = "../"
-  name   = "my-first-namespace"
+  source         = "devdot4/namespace/kubernetes"
+  name           = "my-first-namespace"
+  number_of_pods = 36
 }
 ```
 
